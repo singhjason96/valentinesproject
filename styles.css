@@ -250,3 +250,9 @@ body{
 #heart:hover .fill {
     height:0px;
 }
+
+@media (max-width: 1000px){
+    .container{
+        margin-top: 30%;
+    }
+}

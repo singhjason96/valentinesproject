@@ -27,6 +27,8 @@ function yesMusic(el){
     elem.remove();
     var heartEmpty = document.getElementById('heart');
     heartEmpty.remove();
+    var titleEmpty = document.getElementById('top');
+    titleEmpty.remove();
 
     
     for(let i = 0; i<songFiles.length; i++){
@@ -91,6 +93,8 @@ function noMusic(el){
   elem.remove();
   var heartEmpty = document.getElementById('heart');
   heartEmpty.remove();
+  var titleEmpty = document.getElementById('top');
+    titleEmpty.remove();
   
   for(let i = 0; i<songFiles.length; i++){
     song = new Audio(`${songFiles[i]}`)
