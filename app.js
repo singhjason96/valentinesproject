@@ -82,7 +82,7 @@ function noMusic(el){
   el.disabled = true;
   let headTitle = document.createElement('H1');
   headTitle.className = "celebrate";
-  headTitle.innerHTML = "Let's Celebrate With Tacos";
+  headTitle.innerHTML = "Fuck You Then";
   let newDiv = document.createElement('div');
   newDiv.className = "no-suprise";
   let playlist = document.createElement('h1');
